@@ -148,7 +148,7 @@ body {
   gap: 22px;
   background: var(--fundo-carta);
   border: 1px solid var(--borda);
-  border-radius: 16px;
+  border-radius: 18px;
   padding: 20px;
   align-items: flex-start;
 }
