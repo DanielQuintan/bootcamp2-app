@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diário de Filmes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="pagina">
+
+    <header class="cabecalho">
+      <p class="cabecalho__selo">act I, scene I</p>
+      <h1 class="cabecalho__titulo">Diário de Filmes</h1>
+      <p class="cabecalho__subtitulo">Busque um filme e reviva a sinopse, o elenco e a nota do público.</p>
+    </header>
+
+    <form id="form-busca" class="busca">
+      <input
+        type="text"
+        id="campo-busca"
+        class="busca__campo"
+        placeholder="Nome do filme (ex: Interestelar, Duna, Vingadores)"
+        autocomplete="off"
+      >
+      <button type="submit" id="botao-buscar" class="busca__botao">Buscar</button>
+    </form>
+
+    <section id="resultado" class="resultado">
+      <p class="resultado__placeholder">Digite o nome de um filme para começar a sessão.</p>
+    </section>
+
+  </div>
+
+  <!-- Modelo do cartão de filme -->
+  <template id="template-filme">
+    <article class="filme">
+      <div class="filme__poster-wrap">
+        <img class="filme__poster" alt="">
+        <span class="filme__nota"></span>
+      </div>
+
+      <div class="filme__info">
+        <h2 class="filme__titulo"></h2>
+        <p class="filme__meta">
+          <span class="filme__ano"></span>
+          <span class="filme__duracao"></span>
+        </p>
+
+        <ul class="filme__generos"></ul>
+
+        <p class="filme__sinopse"></p>
+
+        <p class="filme__elenco">
+          <strong>Elenco:</strong>
+          <span class="filme__elenco-lista"></span>
+        </p>
+      </div>
+    </article>
+  </template>
+
+  <!-- Modelo de mensagem de erro -->
+  <template id="template-erro">
+    <p class="erro">
+      Não encontramos nenhum filme com esse nome. Confira a grafia e tente novamente.
+    </p>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
