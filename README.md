@@ -1,7 +1,7 @@
 # Diário de Filmes
 
 ## Autor
-Nome completo — Matrícula 0000000
+Daniel Nery Quintana - 22611134
 
 ## Descrição
 Uma aplicação que permite buscar qualquer filme pelo nome e visualizar seus dados principais: pôster, ano, duração, nota do público, gêneros, sinopse e elenco principal.
@@ -24,5 +24,5 @@ Uma aplicação que permite buscar qualquer filme pelo nome e visualizar seus da
 3. Abra o arquivo `index.html` no navegador
 
 ## Links
-- **Aplicação no ar (GitHub Pages):** https://seu-usuario.github.io/bootcamp2-app/
+- **Aplicação no ar (GitHub Pages):** https://danielquintan.github.io/bootcamp2-app/
 - **Repositório:** https://github.com/seu-usuario/bootcamp2-app
